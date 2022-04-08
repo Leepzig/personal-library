@@ -6,7 +6,7 @@ const Books = () => {
     const [books, setBooks] = useState([])
 
     useEffect(() => {
-        getBooks()
+        // getBooks()
     },[])
 
     const getBooks = async () => {
